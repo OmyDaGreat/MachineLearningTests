@@ -14,9 +14,8 @@ public class DecisionTree {
         System.setErr(new PrintStream(new OutputStream() {public void write(int b) { /* Get rid of unused warning */ }}));
 
         // Load data from CSV file
-        DataSource source = new DataSource("C:\\Users\\ruchi\\IdeaProjects\\MachineLearningTests\\src\\main\\java\\org\\example\\data.arff");
+        DataSource source = new DataSource(System.getProperty("user.home") + "\\IdeaProjects\\MachineLearningTests\\src\\main\\java\\org\\example\\data.arff");
         Instances data = source.getDataSet();
-
 
         // Convert string attributes to nominal
         StringToNominal stn = new StringToNominal();

@@ -11,7 +11,7 @@ import java.io.PrintStream;
 
 public class LoanClassifier {
     public static void main(String[] args) throws Exception {
-        // System.setErr(new PrintStream(new OutputStream() {public void write(int b) { /* Get rid of unused warning */ }}));
+        System.setErr(new PrintStream(new OutputStream() {public void write(int b) { /* Get rid of unused warning */ }}));
 
         // Load ARFF file
         DataSource source = new DataSource(System.getProperty("user.home") + "\\IdeaProjects\\MachineLearningTests\\src\\main\\java\\org\\example\\creditRisk.arff");
@@ -36,7 +36,7 @@ public class LoanClassifier {
         String predictedClassLabel = data.classAttribute().value(predictedClass);
 
         // Print the predicted loan grade
-        System.out.println("Predicted Loan Grade: " + predictedClassLabel);
         System.out.println(classifier);
+        System.out.println("Predicted Loan Grade: " + predictedClassLabel);
     }
 }
