@@ -24,8 +24,6 @@ G.idea/sonarlint/issuestore/d/c/dc3a87b6147bc57670794f7d7ee6c06d0553d100,d\c\dc
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-Å
-Q.idea/sonarlint/securityhotspotstore/e/e/ee283a45cd8a1891bafeb30a8e502aaf9d1cfd96,6\c\6cebf16f5b81dd2ec26c55dac89b2536d032b820
 w
 G.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b,f\d\fdf818fb9a5362495b87d39f90f1c1ca5c215796
 Å
@@ -68,5 +66,9 @@ w
 G.idea/sonarlint/issuestore/4/b/4b85b4803a5a41ce50fb3367fc522bea831c8774,d\7\d718c1f18824d9b170b8b71a1186a9726e424009
 w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+\
+,src/main/java/org/example/LoanPredictor.java,1\4\14d29869a3f2bdf7705723266bbe8e0da4f27215
 w
-G.idea/sonarlint/issuestore/e/e/ee283a45cd8a1891bafeb30a8e502aaf9d1cfd96,7\6\76bfd399b738053b3ed3646c3443af73f6177eab
+G.idea/sonarlint/issuestore/1/4/14d29869a3f2bdf7705723266bbe8e0da4f27215,0\1\01deeec5e6d0df3a57fa0281d4a9c674af8e78af
+Å
+Q.idea/sonarlint/securityhotspotstore/1/4/14d29869a3f2bdf7705723266bbe8e0da4f27215,1\7\17e5573ef84999269ca1dd28336606f6faf60160
